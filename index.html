@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article Preview</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #edf2f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      display: flex;
+      max-width: 900px;
+      background-color: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 400px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #2d3748;
+      margin-bottom: 12px;
+    }
+
+    .card-text {
+      font-size: 1rem;
+      color: #4a5568;
+      margin-bottom: 24px;
+    }
+
+    .author {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .author img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    .author-info {
+      font-size: 0.9rem;
+      color: #718096;
+    }
+
+    .author-info strong {
+      color: #2d3748;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      .card {
+        flex-direction: column;
+        max-width: 95%;
+      }
+
+      .card img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="C:\Users\1\Downloads\project4-main\project4-main\article-preview" alt="Article image">
+
+    <div class="card-content">
+      <div>
+        <div class="card-title">Waymo — це можливість на трильйон доларів. Google просто має нею скористатися</div>
+        <div class="card-text">
+          Підрозділ технологій автономного керування розширюється, але якби Alphabet наполегливіше діяла, Waymo могла б домінувати на новому ринку з потенціалом генерувати більше доходів, ніж її рекламний бізнес.
+        </div>
+      </div>
+      <div class="author">
+        <img src="C:\Users\1\Downloads\project4-main\project4-main\article-preview">
+        <div class="author-info">
+          <strong>Угленко Євгеній Романович</strong><br>
+          28 Вересня 2026
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
